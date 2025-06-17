@@ -1,6 +1,6 @@
 from typing import List
 
-def generateParenthesis(self, n: int) -> List[str]:
+def generateParenthesis(n: int) -> List[str]:
     stack = []
     res = []
     def backtrack(openB, closeB): 
